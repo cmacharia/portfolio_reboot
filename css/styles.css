@@ -28,6 +28,7 @@
 
 }
 body { background: #f2f2f2; font-family:  'Nunito', sans-serif; font-weight: 300;}
+.main-section { padding-bottom: 2.8em ;}
 .intro h1, h2 { font-family: 'museo300', sans-serif;}
 .intro h1 strong { font-family: 'museo500',  sans-serif;}
 .intro h1 strong span { color: #d2232a;}
@@ -39,3 +40,4 @@ footer {background: #cccccc;}
 footer .copyright { padding: 1em 0;}
 .other-contact a { display:  block; margin-bottom: .5em; }
 .other-contact .fa-2x { margin-right:  .2em;}
+.contact-form { padding-top:  1em; padding-bottom: 1em; background: #b7b7b7; border: 1px solid #a4a4a4;}

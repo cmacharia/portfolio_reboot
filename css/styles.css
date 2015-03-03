@@ -36,3 +36,6 @@ body { background: #f2f2f2; font-family:  'Nunito', sans-serif; font-weight: 300
 .showcase-filter-title { padding: 10px 15px 10px 0;}
 .showcase-filter { padding-bottom: 1em;}
 footer {background: #cccccc;}
+footer .copyright { padding: 1em 0;}
+.other-contact a { display:  block; margin-bottom: .5em; }
+.other-contact .fa-2x { margin-right:  .2em;}

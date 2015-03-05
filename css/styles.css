@@ -27,7 +27,7 @@
     font-style: normal;
 
 }
-body { background: #f2f2f2; font-family:  'Nunito', sans-serif; font-weight: 300;}
+body { padding-top: 70px; background: #f2f2f2; font-family:  'Nunito', sans-serif; font-weight: 300;}
 .main-section { padding-bottom: 2.8em ;}
 .intro h1, h2 { font-family: 'museo300', sans-serif;}
 .intro h1 strong { font-family: 'museo500',  sans-serif;}
@@ -42,13 +42,14 @@ footer .copyright { padding: 1em 0;}
 .other-contact .fa-2x { margin-right:  .2em;}
 .contact-form { padding-top:  1em; padding-bottom: 1em; background: #b7b7b7; border: 1px solid #a4a4a4;}
 .showcase-gallery .thumbnail { padding: 0px;}
-
-
+.contact-form .btn-default:hover { background: #d2232a; color: #ffffff;}
+.contact-form label { font-weight:  400; font-size:}
+.showcase-filter li.active a { background: none; border: 1px solid #d2232a; color:#d2232a; }
 @media screen and (min-device-width : 550px) and (max-width: 768px) {
- .showcase-gallery { margin: 0 100px;}
+ .showcase-gallery { padding: 0 100px;}
 }
 
 @media screen and (max-device-width : 550px){
-  .showcase-gallery { margin: 0 15px;}  
+  .showcase-gallery { padding: 0 1em;}  
     
 }

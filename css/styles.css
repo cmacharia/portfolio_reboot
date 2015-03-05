@@ -41,3 +41,14 @@ footer .copyright { padding: 1em 0;}
 .other-contact a { display:  block; margin-bottom: .5em; }
 .other-contact .fa-2x { margin-right:  .2em;}
 .contact-form { padding-top:  1em; padding-bottom: 1em; background: #b7b7b7; border: 1px solid #a4a4a4;}
+.showcase-gallery .thumbnail { padding: 0px;}
+
+
+@media screen and (min-device-width : 550px) and (max-width: 768px) {
+ .showcase-gallery { margin: 0 100px;}
+}
+
+@media screen and (max-device-width : 550px){
+  .showcase-gallery { margin: 0 15px;}  
+    
+}

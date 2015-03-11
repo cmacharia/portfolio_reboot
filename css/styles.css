@@ -47,10 +47,14 @@ footer .copyright { padding: 1em 0;}
 .contact-form label { font-weight:  400; font-size:}
 .showcase-filter li.active a { background: none; border: 1px solid #d2232a; color:#d2232a; }
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover { background: none; border: 1px solid #d2232a; color:#d2232a; }
+.port-page .main-section h3 { margin-top: 0px;}
+.port-page figure { margin-bottom: 1.4em;}
+.port-page figure figcaption { text-align:  center; font-size: 1.4em}
+a:hover {text-decoration:  none;}
 @media screen and (min-device-width : 550px) and (max-width: 768px) {
  .showcase-gallery { padding: 0 100px;}
 }
-.port-page .main-section h3 { margin-top: 0px;}
+
 
 @media screen and (max-device-width : 550px){
   .showcase-gallery { padding: 0 1em;}  

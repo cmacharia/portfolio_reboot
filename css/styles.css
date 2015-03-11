@@ -56,3 +56,4 @@ footer .copyright { padding: 1em 0;}
   .showcase-gallery { padding: 0 1em;}  
     
 }
+@media screen and (max-device-width : 405px){.intro h1 { font-size:  2em;}}

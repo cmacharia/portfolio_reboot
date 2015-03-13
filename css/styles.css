@@ -38,7 +38,7 @@ body { padding-top: 70px; background: #f2f2f2; font-family:  'Nunito', sans-seri
 .showcase-filter-title { padding: 10px 15px 10px 0;}
 .showcase-filter { padding-bottom: 1em;}
 footer {background: #cccccc; padding-bottom: 5em;}
-footer .copyright { padding: 1em 0;}
+footer .copyright { margin: 1em 0;}
 .other-contact a { display:  block; margin-bottom: .5em; }
 .other-contact .fa-2x { margin-right:  .2em;}
 .contact-form { padding-top:  1em; padding-bottom: 1em; background: #b7b7b7; border: 1px solid #a4a4a4;}
@@ -50,7 +50,8 @@ footer .copyright { padding: 1em 0;}
 .port-page .main-section h3 { margin-top: 0px;}
 .port-page figure { margin-bottom: 1.4em;}
 .port-page figure figcaption { text-align:  center; font-size: 1.4em}
-a:hover {text-decoration:  none;}
+a { color: #777777;}
+a:hover {text-decoration:  none; color: #333;}
 @media screen and (min-device-width : 550px) and (max-width: 768px) {
  .showcase-gallery { padding: 0 100px;}
 }

@@ -50,6 +50,7 @@ footer .copyright { margin: 1em 0;}
 .port-page .main-section h3 { margin-top: 0px;}
 .port-page figure { margin-bottom: 1.4em;}
 .port-page figure figcaption { text-align:  center; font-size: 1.4em}
+#about img { border-radius: 4px; margin-bottom: 1em;}
 a { color: #777777;}
 a:hover {text-decoration:  none; color: #333;}
 @media screen and (min-device-width : 550px) and (max-width: 768px) {

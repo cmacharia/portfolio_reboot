@@ -43,7 +43,8 @@ footer .copyright { margin: 1em 0;}
 .other-contact .fa-2x { margin-right:  .2em;}
 .contact-form { padding-top:  1em; padding-bottom: 1em; background: #b7b7b7; border: 1px solid #a4a4a4;}
 .showcase-gallery .thumbnail { padding: 0px;}
-.contact-form .btn-default:hover { background: #d2232a; color: #ffffff;}
+.contact-form .btn-primary:hover {border: 1px solid #d2232a; background: none; color: #d2232a;}
+.contact-form .btn-primary { border: 1px solid #d2232a; background: #d2232a; color: #ffffff;}
 .contact-form label { font-weight:  400; font-size:}
 .showcase-filter li.active a { background: none; border: 1px solid #d2232a; color:#d2232a; }
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover { background: none; border: 1px solid #d2232a; color:#d2232a; }

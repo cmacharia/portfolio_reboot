@@ -10,4 +10,7 @@ $('.showcase-filter').on( 'click', 'a', function(e) {
   $('.showcase-filter li').removeClass('active');
   $(this).closest('li').addClass('active')
 });
-
+$(".nav a").on("click", function(){
+   $(".nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+});

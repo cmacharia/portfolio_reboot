@@ -1,4 +1,4 @@
-@import 'main.css';
+ @import 'main.css';
 @font-face {
     font-family: 'museo300';
     src: url('museo-300-webfont.eot');
@@ -27,14 +27,47 @@
     font-style: normal;
 
 }
+
+
+
 body { padding-top: 70px; background: #f2f2f2; font-family:  'Nunito', sans-serif; font-weight: 300;}
+
+/*home hero styling */
+.home-hero {
+    background-color: #eeeeee;
+}
+.home-hero > .container {
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+.intro h1, h2 { 
+    font-family: 'museo300', sans-serif;
+}
+.intro h1 strong {
+    font-family: 'museo500',  sans-serif;
+}
+.intro h1 strong span {
+    color: #d2232a;
+}
+
+.intro h1 { font-size: 4em; line-height: 1em; }
+
+/*home hero end*/
+
+/*navigation*/
+.navbar-brand {
+    font-family: 'museo500',  sans-serif;
+    color: #d2232a;
+}
+
+
+/*navigation end*/
+
+
 .main-section { padding: 2.8em 0;}
 #about {padding-bottom: 7em;}
-.intro h1, h2 { font-family: 'museo300', sans-serif;}
-.intro h1 strong { font-family: 'museo500',  sans-serif;}
-.intro h1 strong span { color: #d2232a;}
-.navbar-brand { font-family: 'museo500',  sans-serif; color: #d2232a;}
-.navbar-default .navbar-brand {color: #d2232a;}
+
+.navbar-default 
 .showcase-filter-title { padding: 10px 15px 10px 0;}
 .showcase-filter { padding-bottom: 1em;}
 footer {background: #cccccc; padding-bottom: 5em;}

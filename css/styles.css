@@ -50,6 +50,9 @@ h4 {font-size: 1.333em;}
 p {
     line-height: 1.75;
 }
+.work-item p {
+  margin-bottom: 0;
+}
 
 /*home hero styling */
 .home-hero {
@@ -227,6 +230,17 @@ nav a {
     margin-bottom: 1em;
 }
 
+.work-item {
+  margin-bottom: 4em;
+}
+.work-item h3{ 
+  font-size: 1.5em;
+}
+
+.work-item h4 {
+  font-style: italic;
+  font-size: 1em;
+}
 .showcase .grid-item img {
     width: 100%;
     height: auto;
@@ -238,7 +252,7 @@ nav a {
     left: 15px ;
     width: calc(100% - 30px) ;
     height: 100%;
-    background-color: rgba(210, 35, 42, .7);
+    background-color: rgba(210, 35, 42, .9);
     opacity: 0;
     
     -webkit-transition: .5s ease;
